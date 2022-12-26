@@ -1,0 +1,28 @@
+//GET https://localhost:5000/user/table
+
+//GET https://example.com/comments/1
+
+# POST http://localhost:5000/user/table HTTP/1.1
+# Content-Type: application/xml
+
+# <request>
+#     <username>ahmedamine</username>
+# </request>
+
+# POST http://localhost:5000/client/register HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "username":"Amed",
+#     "password":"ahmedamine"
+# }
+
+POST http://localhost:5000/credit/dureeSauv HTTP/1.1
+Content-Type: application/json
+
+{
+    "c":"1500",
+    "a":"200",
+    "t":"4",
+    "username":"Ahmed_Amine"
+}

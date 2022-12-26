@@ -1,0 +1,12 @@
+CLI Commands:
+npm init -y
+npm install express body-parser node-fetch nodemon
+
+Routes:
+    User:
+        /blogs/:handle => returns blogs for a specific user
+        /rating/:handle => returns user's current rating
+        /chart/:handle => returns list of rating to be used in chart
+    Contests:
+        / => returns codeforces contests
+        /userContests/:handle => returns the contests a specific user participated in
